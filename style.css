@@ -1,0 +1,404 @@
+body{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(100vh);
+    width: calc(100vw);
+    background-color: lightcyan;
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.topnav{
+    display: flex;
+    position: fixed;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: calc(100vw);
+    background-color: lightgray;
+}
+div.topli{
+    position: absolute;
+    top: calc(0vh);
+    left: calc(23vw);
+    height: calc(4vh);
+    width: calc(76vw);
+    /* border-left: 1px solid red;
+    border-right: 1px solid red; */
+    justify-content: center;
+}
+div.topli1{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(10vw);
+    color: rgb(255, 58, 58);
+    /* background-color: lightblue; */
+    font-size: small;
+}
+div.topli2{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(11vw);
+    height: calc(3vh);
+    width: calc(14vw);
+    /* background-color: rgb(57, 199, 247); */
+    font-size: small;
+}
+div.topli3{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(26vw);
+    height: calc(3vh);
+    width: calc(8vw);
+    /* background-color: rgb(174, 230, 248); */
+    font-size: small;
+}
+div.topli4{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(35vw);
+    height: calc(3vh);
+    width: calc(9vw);
+    /* background-color: rgb(174, 230, 248); */
+    font-size: small;
+}
+div.topli5{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(45vw);
+    height: calc(3vh);
+    width: calc(9vw);
+    /* background-color: rgb(174, 230, 248); */
+    font-size: small;
+}
+div.topli6{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(55vw);
+    height: calc(3vh);
+    width: calc(3vw);
+    /* background-color: rgb(174, 230, 248); */
+    font-size: small;
+}
+div.topli7{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(59vw);
+    height: calc(3vh);
+    width: calc(4vw);
+    /* background-color: rgb(174, 230, 248); */
+    font-size: small;
+}
+div.topli8{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(64vw);
+    height: calc(3vh);
+    width: calc(10vw);
+    /* background-color: rgb(174, 230, 248); */
+    font-size: smallER;
+}
+div.mainnav{
+    display: flex;
+    position: fixed;
+    top: calc(4vh);
+    left: calc(0vw);
+    height: calc(15vh);
+    width: calc(100vw);
+    background-color: white;
+}
+div.mainlogo{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(7vw);
+    height: calc(10vh);
+    width: calc(8vw);
+    /* background-color: rgb(217, 247, 137); */
+}
+img.mainlogo{
+    height: inherit;
+    width: inherit;
+}
+div.mainsearchbar{
+    display: flex;
+    position: absolute;
+    top: calc(3vh);
+    left: calc(20vw);
+    height: calc(8vh);
+    width: calc(50vw);
+    background-color:silver;
+}
+div.maininput{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(1vw);
+    height: calc(8vh);
+    width: calc(45vw);
+    /* background-color: antiquewhite; */
+}
+input.maininput{
+    height: inherit;
+    width: inherit;
+    background-color: transparent;
+    border: none;
+    color: lightgray;
+}
+div.mainsearchicon{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    right: calc(0vw);
+    height: calc(8vh);
+    width: calc(3vw);
+    background-color: orange;
+    /* color: white; */
+}
+img.mainsearchicon{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0.5vw);
+    height: calc(6vh);
+    width: calc(2vw);
+    /* color: white; */
+}
+div.mainshop{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(72vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    /* background-color: aqua; */
+}
+div.specialoffer{
+    display: flex;
+    position: absolute;
+    top: calc(3vh);
+    left: calc(78vw);
+    height: calc(9vh);
+    width: calc(15vw);
+    background-color: white;
+}
+
+div.adverandproduct{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    width: calc(100vw);
+    height: calc(52vh);
+    background-color: orange;
+}
+div.products{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(5vw);
+    width: calc(15vw);
+    height: calc(52vh);
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+div.product1{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product3{
+    display: flex;
+    position: absolute;
+    top: calc(9vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product4{
+    display: flex;
+    position: absolute;
+    top: calc(13vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product5{
+    display: flex;
+    position: absolute;
+    top: calc(17vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product6{
+    display: flex;
+    position: absolute;
+    top: calc(21vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product7{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product8{
+    display: flex;
+    position: absolute;
+    top: calc(29vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product9{
+    display: flex;
+    position: absolute;
+    top: calc(33vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product10{
+    display: flex;
+    position: absolute;
+    top: calc(37vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product11{
+    display: flex;
+    position: absolute;
+    top: calc(41vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product12{
+    display: flex;
+    position: absolute;
+    top: calc(45vh);
+    left: calc(0vw);
+    height: calc(3vh);
+    width: calc(15vw);
+    border-bottom: 0.2px solid gray;   
+}
+div.product:hover{
+    background-color: lightblue;
+}
+div.arrow{
+    display: none;
+    position: absolute;
+    top: calc(0vh);
+    right: calc(0vw);
+    height: calc(3vh);
+    width: calc(1.5vw);
+    background-color: lightblue;
+}
+div.product:hover div.arrow{
+    display: block;
+}
+div.product1pro{
+    display: none;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(20vw);
+    width: calc(15vw);
+    height: calc(52vh);
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+div.product1:hover ul.product1{
+    display: block;
+}
+ul.product1{
+    display: none;
+    position: absolute;
+    top: calc(-4vh);
+    left: calc(15vw);
+    background-color: whitesmoke;
+    width: calc(15vw);
+    height: calc(50vh);
+}
+li.product{
+    margin-top: 5px;
+    text-decoration: none;
+    list-style-type: none;
+}
+div.arrowli{
+    display: none;
+}
+ul.product2{
+    display: none;
+    position: absolute;
+    top: calc(-8vh);
+    left: calc(15vw);
+    background-color: whitesmoke;
+    width: calc(15vw);
+    height: calc(50vh);
+}
+div.product2:hover ul.product2{
+    display: block;
+}
+ul.product3{
+    display: none;
+    position: absolute;
+    top: calc(-12vh);
+    left: calc(15vw);
+    background-color: whitesmoke;
+    width: calc(15vw);
+    height: calc(50vh);
+}
+div.product3:hover ul.product3{
+    display: block;
+}
+ul.product4{
+    display: none;
+    position: absolute;
+    top: calc(-12vh);
+    left: calc(15vw);
+    background-color: whitesmoke;
+    width: calc(15vw);
+    height: calc(50vh);
+}
+div.product4:hover ul.product4{
+    display: block;
+}
