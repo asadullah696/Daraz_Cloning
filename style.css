@@ -17,6 +17,7 @@ div.topnav{
     height: calc(4vh);
     width: calc(100vw);
     background-color: lightgray;
+    z-index: 10;
 }
 div.topli{
     position: absolute;
@@ -117,6 +118,7 @@ div.mainnav{
     height: calc(15vh);
     width: calc(100vw);
     background-color: white;
+    z-index: 10;
 }
 div.mainlogo{
     display: flex;
@@ -501,3 +503,154 @@ ul.product12{
 div.product12:hover ul.product12{
     display: block;
 }
+div.eidshopping{
+    display: flex;
+    position: absolute;
+    top: calc(75vh);
+    left: calc(7.5vw);
+    height: calc(30vh);
+    width: calc(85vw);
+    background-color: orange;
+    border-radius: 30px;
+}
+div.eds{
+    display: flex;
+    position: absolute;
+    top: calc(8vh);
+    left: calc(4vw);
+    width: calc(30vw);
+    height: calc(9vh);
+    font-size: 350%;
+    font-weight: bold;
+    color: skyblue;
+    /* background-color: lightgoldenrodyellow; */
+}
+div.bv{
+    display: flex;
+    position: absolute;
+    top: calc(17vh);
+    left: calc(4vw);
+    height: calc(5vh);
+    width: calc(30vw);
+    font-size: 130%;
+    color: skyblue;
+    /* background-color: lightseagreen; */
+}
+div.shopnow{
+    display: flex;
+    position: absolute;
+    top: calc(13vh);
+    right: calc(3vw);
+    height: calc(7vh);
+    width: calc(10vw);
+    background-color: skyblue;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px;
+}
+div.shopnow:hover{
+    background-color: blueviolet;
+    box-shadow: 1px 1px 1px 1px;
+}
+button.shopnow{
+    height: inherit;
+    width: inherit;
+    border-radius: 40px;
+    background-color: transparent;
+    border: none;
+    color: darkorange;
+    font-size: large;
+    font-weight: bold;
+}
+div.eidimage{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(35vw);
+    height: calc(30vh);
+    width: calc(35vw);
+    background-color: lightsalmon;
+}
+img.eid{
+    height: inherit;
+    width: inherit;
+}
+div.categories{
+    display: flex;
+    position: absolute;
+    top: calc(110vh);
+    left: calc(8vw);
+    height: calc(10vh);
+    width: calc(84vw);
+    /* background-color: blue; */
+}
+div.mart{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: inherit;
+    width: calc(27vw);
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+div.fashion{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(28.5vw);
+    height: inherit;
+    width: calc(27vw);
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+div.beauty{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(57vw);
+    height: inherit;
+    width: calc(27vw);
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+div.categoriesimg{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(1vw);
+    height: calc(8vh);
+    width: calc(4vw);
+    /* background-color: blue; */
+}
+img.categories{
+    height: inherit;
+    width: inherit;
+    border-radius: 100px;
+}
+div.categoriesdata{
+    display: flex;
+    position: absolute;
+    top: calc(3vh);
+    left: calc(6vw);
+    height: calc(6vh);
+    width: calc(20vw);
+    font-size: 180%;
+    /* background-color: blue; */
+}
+div.ctgr{
+    box-shadow: 1px 1px 1px 1px;
+}
+div.ctgr:hover{
+    background-color: yellow;
+    box-shadow: 1px 1px 1px 1px;
+}
+div.productssection{
+    display: flex;
+    position: absolute;
+    top: calc(130vh);
+    left: calc(10vw);
+    height: calc(500vh);
+    width: calc(80vw);
+    background-color: rgb(245, 112, 112);
+}
+
